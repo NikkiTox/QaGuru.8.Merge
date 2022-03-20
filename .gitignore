@@ -1,0 +1,5 @@
+/.gradle
+/.idea
+/.settings.gradle
+!gradle
+*.class
