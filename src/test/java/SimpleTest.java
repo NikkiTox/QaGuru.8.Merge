@@ -12,9 +12,6 @@ public class SimpleTest {
     @Test
     void assertFalseTests(){
         assertFalse(3 < 2);
-    }    @Test
-    void assertFailTests(){
-        fail();
     }
     @Test
     void assertFailAnotherTests() {
