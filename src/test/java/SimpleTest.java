@@ -13,7 +13,10 @@ public class SimpleTest {
     void assertFalseTests(){
         assertFalse(3 < 2);
     }
-
+    @Test
+    void assertFailAnotherTests() {
+        fail("Another fail!");
+    }
 
 }
 
