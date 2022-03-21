@@ -16,7 +16,10 @@ public class SimpleTest {
     void assertFailTests(){
         fail();
     }
-
+    @Test
+    void assertFailAnotherTests() {
+        fail("Another fail!");
+    }
 
 }
 
