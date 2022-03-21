@@ -7,11 +7,11 @@ public class SimpleTest {
 
     @Test
     void assertTrueTests() {
-        assertTrue(3 > 2);
+        assertTrue(3 > 0);
     }
     @Test
     void assertFalseTests(){
-        assertFalse(3<2);
+        assertFalse(3 < 2);
     }
 }
 
